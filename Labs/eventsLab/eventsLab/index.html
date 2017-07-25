@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Handling Lab</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<p id="overview">Sample Overview Text</p>
+<p id="contents">
+<ul id="tableOfContents">
+    <li id="liO">Overview</li>
+    <li id="liD">Design</li>
+    <li id="liI">Implementation</li>
+    <li id="liS">Summary</li>
+</ul>
+<form action="#" method="post">
+    <fieldset>
+        <p>Enter your comments below (100 characters max).</p>
+        <div><label for="comments">Comments</label><textarea name="comments" id="comments" maxlength="100" required></textarea></div>
+        <div><label for="count">Character Count</label><input type="text" name="count" id="count" disabled></div>
+
+        <input type="submit" id="addComment" value="Add" />
+    </fieldset>
+</form>
+
+<hr>
+<div id="log"></div>
+
+<script type="text/javascript" src="js/events.js" ></script>
+
+</body>
+</html>

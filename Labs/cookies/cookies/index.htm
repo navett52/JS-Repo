@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8" />
+   <title>Cookies Lab</title>
+   <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+   <header>
+      <h1>
+         Cookies Lab
+      </h1>
+   </header>
+
+   <article>
+      <div id="errorMessage"></div>
+      <form action="results.htm">
+         <fieldset id="deliveryinfo">
+            <legend>Site Login</legend>
+            <label for="usernameInput">Username</label>
+            <input type="text" id="usernameInput" name="username" />
+            <label for="passwordInput">Password</label>
+            <input type="password" id="passwordInput" name="password" />
+            <input type="checkbox" id="rememberInput" name="remember" value="remember" />
+            <label for="rememberInput" id="rememberLabel">Remember me</label>
+         </fieldset>
+         <fieldset id="submitbutton">
+            <input type="submit" id="submitBtn" value="Login" />
+         </fieldset>
+      </form>
+   </article>
+   <script src="js/cookies.js"></script>
+</body>
+</html>
